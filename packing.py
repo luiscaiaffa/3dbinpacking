@@ -47,6 +47,6 @@ def default_api():
 
     global __default_api__
     if __default_api__ is None:
-        __default_api__ = Packing(username='caiaffa', api_key='6c8917ae41b340b2015119760d9f4035')
+        __default_api__ = Packing(username='your username', api_key='your api key')
     return __default_api__
 
